@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
+﻿using FicticiousBookstore.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace FicticiousBooksellers.Models
 {
@@ -13,5 +16,7 @@ namespace FicticiousBooksellers.Models
             : base("DefaultConnection")
         {
         }
+
+        public DbSet<Book> Books { get; set; }
     }
 }

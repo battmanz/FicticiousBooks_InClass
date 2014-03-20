@@ -6,7 +6,7 @@ header {
     background-color: rgba(34, 34, 34, 0.9);
     padding: 20px 20px 0 20px;
     overflow: hidden;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     box-sizing: border-box;
     border-bottom: 10px solid #0e9618;
